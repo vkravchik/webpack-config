@@ -1,0 +1,14 @@
+@import "variable";
+
+button {
+  height: 30px;
+  font-size: 16px;
+  background: $primary-color;
+  color: $font-color;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    background: $secondary-color;
+  }
+}

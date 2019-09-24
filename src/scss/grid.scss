@@ -1,0 +1,15 @@
+@import "variable";
+
+.img-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  img {
+    width: $img-width;
+    height: $img-height;
+
+    margin: $margin $margin;
+  }
+}
+
