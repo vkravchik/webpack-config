@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="./dist/index.css">
 </head>
 <body>
 <h1>Welcome!! This is Webpack simple example</h1>
@@ -11,13 +10,12 @@
 <button id="write-text-button">Write text to the p tag!</button><p></p>
 
 <div class="img-grid">
-    <img src="./dist/images/1.jpg"/>
-    <img src="./dist/images/2.jpg"/>
-    <img src="./dist/images/3.jpg"/>
-    <img src="./dist/images/4.jpg"/>
-    <img src="./dist/images/5.jpeg"/>
+    <img src="<%= require('./src/img/1.jpg') %>"/>
+    <img src="<%= require('./src/img/2.jpg') %>"/>
+    <img src="<%= require('./src/img/3.jpg') %>"/>
+    <img src="<%= require('./src/img/4.jpg') %>"/>
+    <img src="<%= require('./src/img/5.jpeg') %>"/>
 </div>
 
-<script src="./dist/main.js"></script>
 </body>
 </html>
